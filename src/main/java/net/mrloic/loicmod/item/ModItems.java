@@ -7,6 +7,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.mrloic.loicmod.LoicMod;
+import net.mrloic.loicmod.utils.ModItemGroups;
 
 public class ModItems
 {
@@ -19,6 +20,5 @@ public class ModItems
     }
 
     public static final RegistryObject<Item> LOIC = ITEMS.register("loic",
-            ()-> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
+            ()-> new Item(new Item.Properties().tab(ModItemGroups.LOIC_ITEMS_TAB)));
 }
-//ModItemGroups.LOIC_ITEMS_TAB

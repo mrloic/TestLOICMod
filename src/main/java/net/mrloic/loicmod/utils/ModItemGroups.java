@@ -4,6 +4,7 @@ import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.ItemLike;
 import net.minecraftforge.registries.RegistryObject;
+import net.mrloic.loicmod.item.ModItems;
 
 public class ModItemGroups
 {
