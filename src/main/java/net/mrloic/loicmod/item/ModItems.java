@@ -21,4 +21,7 @@ public class ModItems
 
     public static final RegistryObject<Item> LOIC = ITEMS.register("loic",
             ()-> new Item(new Item.Properties().tab(ModItemGroups.LOIC_ITEMS_TAB)));
+
+    public static final RegistryObject<Item> RAW_LOIC = ITEMS.register("raw_loic",
+            ()-> new Item(new Item.Properties().tab(ModItemGroups.LOIC_ITEMS_TAB)));
 }

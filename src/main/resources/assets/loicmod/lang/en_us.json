@@ -1,4 +1,15 @@
 {
   "item.loicmod.loic" : "LOIC Test Item",
+  "item.loicmod.raw_loic" : "Raw LOIC Test Item",
+
+
+
+  "block.loicmod.loic_block": "Block of LOIC",
+  "block.loicmod.loic_ore": "LOIC Ore",
+  "block.loicmod.deepslate_loic_ore": "Deepslate LOIC Ore",
+
+
   "itemGroup.loic_items_tab": "LOIC Test Tab"
+
+
 }
